@@ -1,0 +1,29 @@
+{
+  "name": "cards-generator-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": {
+    "name": "Samer A.",
+    "website": "cleversamer.com"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "creditcard-generator": "^0.0.7",
+    "express": "^4.18.1",
+    "random-country": "^1.0.1",
+    "random-name": "^0.1.2",
+    "random-zipcode": "^1.0.2"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
